@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Routes
 app.use('/', require('./routes/blogRoutes')); 
-app.use('/api', require('./routes/userRoutes'));
+app.use('/', require('./routes/userRoutes'));
 
 
 // 404 Handler
